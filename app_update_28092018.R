@@ -388,7 +388,7 @@ server <- function(input, output) {
     #table displays what user has selected in sidebar
     modelTabData <- modelValsTable()
     datatable(
-      modelTabData[,c(3:10, 12, 17)], extensions = 'FixedHeader', 
+      modelTabData[,c(4:11, 13, 17)], extensions = 'FixedHeader', 
       options = list(pageLength = 10, fixedHeader = TRUE, orderClasses = TRUE,  
                      dom='Brtip'),  
       rownames = FALSE
@@ -401,7 +401,7 @@ server <- function(input, output) {
       #table displays what user has selected in sidebar
       drugTabData <- drugValsTable()
       datatable(
-        drugTabData[,c(3:10, 12, 17)]
+        drugTabData[,c(4:11, 13, 17)]
         , extensions = 'FixedHeader', 
         options = list(pageLength = 10, fixedHeader = TRUE, orderClasses = TRUE
                        ,  dom='Brtip'
@@ -420,7 +420,7 @@ server <- function(input, output) {
   output$xAllData <- DT::renderDataTable({
     #table displays what user has selected in sidebar
     datatable(
-      All_Studies_18409[,c(3:10, 12, 17)], extensions = 'FixedHeader', 
+      All_Studies_18409[,c(4:11, 13, 17)], extensions = 'FixedHeader', 
       options = list(pageLength = 10, fixedHeader = TRUE, orderClasses = TRUE,  
                      dom='Brtip'),  
       rownames = FALSE
