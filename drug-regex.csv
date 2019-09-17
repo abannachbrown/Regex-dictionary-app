@@ -1,6 +1,5 @@
 dictionaryNameHeader,dictionaryRegexHeader,drugCategory
-ademetionineRegex,[aA]demetionine|[sS](-| )?[aA]denosyl-L-methionine|SAMe|SAM|SAM-e|[hH]eptral|[tT]ransmetil|[sS]amyl|[aA]do[mM]et,MAOI
-ademetionineSAdenosylRegex,[aA]demetionine|S[-| ]?[aA]denosyl methionine|SAMe|MSI[-| ]?19\(0|5\)|[sS]trada,MAOI
+ademetionineRegex,[aA]demetionine|[sS](-| )?[aA]denosyl-L-methionine|SAMe|SAM-e|[hH]eptral|[tT]ransmetil|[sS]amyl|[aA]do[mM]et|S[-| ][aA]denosyl[ ]?methionine|[sS]trada|MSI[-| ]?19(0|5)|[aA]demethionine,MAOI
 agomelatineRegex,[aA]gomelatine|[vV]aldoxan|[mM]elitor|[tT]hymanax,Other
 alphaMethylRegex,(\p{Greek}|[aA]lpha)?(-| )?[mM]ethyltryptamine|(\p{Greek}|[aA]lpha|[aA])MT|[iI]ndopan,Serotonin Acting
 amineptineRegex,[aA]mineptine|[sS]urvector|[mM]aneon|[dD]irectim|[nN]eolior|[pP]rovector|[vV]iaspera,TCA
@@ -38,7 +37,7 @@ escitalopramRegex,[eE]scitalopram|[lL]exapro|[cC]ipralex,SSRI
 esketamineRegex,[eE]sketamine|JNJ-54135419|[kK]etanest S|\([sS]\)[-| ]?[kK]etamine|[sS]\(\+\)[-| ]?[kK]etamine,NMDA
 etoperidoneRegex,[eE]toperidone|[aA]xiomin|[eE]tonin|[cC]entren|[dD]epracer|[eE]toran|[sS]taff|[tT]ropene|[cC]lopradone|[tT]riazolinone,SARI
 etryptamineRegex,[eE]tryptamine|(\p{Greek}|[aA]lpha)?(-| )?[eE]thyltryptamine|([aA]lpha|[aA]|\p{Greek})(-)?ET|[mM]onase,Serotonin Acting
-evt10Regex,EVT[-| ]?10\(1|3\)|ENS[-| ]?10\(1|3\),NMDA
+evt10Regex,EVT[-| ]?10(1|3)?|ENS[-| ]?10(1|3)?,NMDA
 fluoxetineRegex,[fF]luoxetine|[pP]rozac|[sS]arafem,SSRI
 flupentixolRegex,[fF]lupentixol[\| |\/|with|w\/]*?[mM]elitracen|[dD]eanxit|[pP]lacida|[fF]r(a|e)nxit|[aA]nxidreg|[sS]ensit|[rR]enxit|[mM]elixol|[mM]elanxit|[bB]enzit|[lL]eanxit,Combination
 fluvoxamineRegex,[fF]luvoxamine|[lL]uvox|[fF]averin|[fF]evarin|[fF]loxyfral|[dD]umyrox,SSRI
