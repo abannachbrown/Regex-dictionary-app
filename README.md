@@ -6,7 +6,7 @@
 3. run the app in R using the app_update_28092018.R 
 
 
-or 
+or for developmental version
 
 1. Ensure file "20190917101929AllDataAnnotated.txt", "drug-regex.csv" and "list-of-models-for-R.csv" are in same directory.
 2. run app using file app_update_092019.R file
