@@ -16,4 +16,4 @@ App available at https://camarades.shinyapps.io/Preclinical-models-of-depression
 
 Developmental version of app available at: https://abannachbrown.shinyapps.io/Animal_Models_Depression/ 
 - Updated as of July 2019 - but file export not working. 
-- Drug Regex updatedto be more accurate
+- Drug Regex updated to be more accurate
